@@ -64,6 +64,8 @@ done
 
 # rebuild fauxton
 cd ${FAUXTON_SRC}
+npm install sinon@latest
+npm install url-polyfill@latest
 npm install
 npm run couchdb
 cd ${CURRENT_WD}
